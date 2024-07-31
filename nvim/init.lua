@@ -5,6 +5,8 @@ vim.cmd.set "cursorline"
 vim.cmd.set "shiftwidth=4"
 vim.cmd.set "tabstop=4"
 
+-- share clip board between yank and system
+vim.opt.clipboard = "unnamedplus"
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
