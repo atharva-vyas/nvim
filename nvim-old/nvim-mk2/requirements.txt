@@ -1,0 +1,4 @@
+apt install fd-find
+apt install fzf
+apt install ripgrep
+
