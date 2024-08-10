@@ -9,21 +9,8 @@ vim.cmd.set "tabstop=4"
 vim.opt.clipboard = "unnamedplus"
 -- disables native jukit shortcuts
 vim.g.jukit_mappings = 0
--- uses nvterm for jukit output 
-vim.g.jukit_terminal = "nvimterm"
--- vim.g.jukit_layout = {
---     split = 'horizontal',
---     p1 = 0.6,
---     val = {
---         'file_content',
---         {
---             split = 'vertical',
---             p1 = 0.6,
---             val = {'output', 'output_history'}
---         }
---     }
--- }
-
+vim.g.jukit_terminal = "vimterm"
+-- vim.g.jukit_inline_plotting=0
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
