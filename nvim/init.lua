@@ -11,6 +11,7 @@ vim.opt.clipboard = "unnamedplus"
 vim.g.jukit_mappings = 0
 -- uses nvterm for jukit output 
 vim.g.jukit_terminal = "nvimterm"
+-- vim.g.jukit_mappings_ext_enabled = {"py", "ipynb"}
 -- vim.g.jukit_layout = {
 --     split = 'horizontal',
 --     p1 = 0.6,

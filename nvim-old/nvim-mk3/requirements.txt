@@ -5,3 +5,4 @@ apt install ripgrep
 
 for vim-jukit.lua
 pip install pynvim
+pip install matplotlib

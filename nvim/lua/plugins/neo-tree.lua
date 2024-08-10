@@ -7,6 +7,7 @@ return {
 		"MunifTanjim/nui.nvim"
 	},
 	config = function()
+		-- shift + h to view hidden files
 		vim.keymap.set('n', '<leader>n', ':Neotree reveal left<CR>', {})
 		vim.keymap.set('n', '<leader>nn', ':Neotree toggle<CR>', {})
 	end
