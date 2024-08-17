@@ -11,27 +11,21 @@ return {
 		vim.keymap.set('n', '<leader>os', ':call jukit#splits#output()<CR>', {})
 		-- output window: discard
 		vim.keymap.set('n', '<leader>od', ':call jukit#splits#close_output_split()<CR>', {})
-		--
-		--
 		-- history window: show
 		vim.keymap.set('n', '<leader>hs', ':call jukit#splits#history()<CR>', {})
 		-- history window: discard
 		vim.keymap.set('n', '<leader>hd', ':call jukit#splits#close_history()<CR>', {})
-		-- show output: history window
-		vim.keymap.set('n', '<leader>so', ':call jukit#splits#show_last_cell_output(1)")<CR>', {})
-
-
+		--
+		--
 		-- execute current cell to the output window
 		vim.keymap.set('n', '<leader><space>', ':call jukit#send#section(0)<CR>', {})
 		-- execute all cells until the current cell to the output window
 		vim.keymap.set('n', '<leader>cc', ':call jukit#send#until_current_section()<CR>', {})
+		-- show output: history window
+		vim.keymap.set('n', '<leader>so', ':call jukit#splits#show_last_cell_output(1)")<CR>', {})
 
 
 
-
-		vim.keymap.set('n', '<leader>cs', ':call jukit#cells#split()<CR>', {})
-		--
-		--
 		-- Create new code cell above
 		vim.keymap.set('n', '<leader>cO', ':call jukit#cells#create_above(0)<CR>', {})
 		-- Create new code cell below
