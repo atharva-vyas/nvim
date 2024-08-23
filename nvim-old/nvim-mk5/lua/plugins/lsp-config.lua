@@ -83,8 +83,7 @@ return {
 			end)
 
 			require('mason-lspconfig').setup({
-				-- ensure_installed = { "lua_ls", "pyright" },
-				ensure_installed = { "lua_ls", "pyright", "cssls", "emmet_ls", "eslint", "html", "jsonls", "tsserver" },
+				ensure_installed = { "lua_ls", "pyright" },
 				handlers = {
 
 
