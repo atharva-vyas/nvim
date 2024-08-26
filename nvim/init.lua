@@ -12,11 +12,9 @@ vim.cmd.set "tabstop=4"
 vim.opt.clipboard = "unnamedplus"
 -- disables native jukit shortcuts
 vim.g.jukit_mappings = 0
--- uses nvterm for jukit output 
+-- uses nvterm for jukit output
 vim.g.jukit_terminal = "nvimterm"
 -- vim.g.jukit_mappings_ext_enabled = {"py", "ipynb"}
-
-
 
 
 
